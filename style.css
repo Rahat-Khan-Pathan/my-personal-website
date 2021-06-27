@@ -82,10 +82,16 @@ h3
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon,tomato);
     border-image-slice: 1;
+    background-color: white;
 }
 #right-box
 {
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue,cyan);
     border-image-slice: 1;
+}
+footer
+{
+    text-align: center;
+    font-size: 17px;
 }
