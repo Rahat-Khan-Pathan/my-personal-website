@@ -6,8 +6,26 @@ body
 h1
 {
     font-size: 50px;
+    font-weight: 600;
+}
+p
+{
+    color: dimgray;
+}
+section
+{
+    height: 500px;
+    padding-bottom: 150px;
 }
 .name-highlight
+{
+    color: orange;
+}
+h2
+{
+    font-size: 40px;
+}
+h3
 {
     color: orange;
 }
@@ -20,15 +38,19 @@ h1
 }
 .half-width img
 {
-    width: 80%;
+    width: 100%;
     padding-top: 2%;
 }
 .top-banner
 {
-    height: 500px;
     background: url("images/top-banner.png");
     background-repeat: no-repeat;
-    border: 1px solid red;
+}
+.mid-banner
+{
+    background: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .first-text
 {
@@ -38,9 +60,32 @@ h1
 .hire-button
 {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-image: linear-gradient(45deg, lightsalmon,tomato);
     border-radius: 10px;
     font-weight: 700;   
     color: white;
+}
+.shadow
+{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+.last-banner
+{
+    background: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#left-box
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#right-box
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
 }
