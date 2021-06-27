@@ -90,6 +90,11 @@ h3
     border-image: linear-gradient(180deg, blue,cyan);
     border-image-slice: 1;
 }
+.box-text
+{
+    text-align: justify;
+    padding-right: 5%;
+}
 footer
 {
     text-align: center;
